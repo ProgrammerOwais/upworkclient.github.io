@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Front page</title>
+</head>
+<body>
+    <div class="form-container">
+        <span class="close" onclick="closeForm()">X</span>
+        <iframe src="https://www.nursejobboard.com/users/quickregister.cfm" class="form-info"></iframe>
+    </div>
+    <script>
+        let formContainer = document.querySelector('.form-container');
+        function closeForm() {
+            formContainer.style.display="none";
+            
+        }
+    </script>
+</body>
+</html>
