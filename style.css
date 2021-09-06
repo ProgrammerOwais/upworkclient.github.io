@@ -1,4 +1,5 @@
 .form-container {
+    padding-right: 1.5rem;
     animation: formAnimation 1s ease-in-out 2s forwards;
     position: absolute;
     left: 50%;
